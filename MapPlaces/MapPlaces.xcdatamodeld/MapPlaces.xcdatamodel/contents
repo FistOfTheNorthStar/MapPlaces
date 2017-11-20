@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G1036" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GoogleSignIn" representedClassName="GoogleSignIn" syncable="YES" codeGenerationType="class">
+        <attribute name="idToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MarkerLists" representedClassName="MarkerListsMO" syncable="YES">
+        <attribute name="icon" attributeType="String" defaultValueString="pointer" syncable="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rowNo" attributeType="Integer 16" minValueString="1" defaultValueString="1" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sheetID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snippet" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" minValueString="1" syncable="YES"/>
+    </entity>
+    <entity name="MyTable" representedClassName="MyTable" syncable="YES">
+        <attribute name="sheetID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MarkerLists" positionX="-54" positionY="-9" width="128" height="150"/>
+        <element name="MyTable" positionX="-54" positionY="63" width="128" height="60"/>
+        <element name="GoogleSignIn" positionX="-54" positionY="45" width="128" height="75"/>
+    </elements>
+</model>

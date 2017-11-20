@@ -17,7 +17,7 @@ More information on [Google Sheets](https://developers.google.com/sheets/api/qui
  For [Google Maps](https://developers.google.com/maps/documentation/ios-sdk/). The docs are pretty good, and you should have no problems with Google Maps.
 
 ### GoogleService-Info.plist
-Follow the instructions [Google Sign-in](https://developers.google.com/identity/sign-in/ios/start-integrating). Note that the instructions are a bit outdated on some parts, so just get the configuration file and ad it to your project.
+Follow the instructions [Google Sign-in](https://developers.google.com/identity/sign-in/ios/start-integrating). Note that the instructions are a bit outdated on some parts, so just get the configuration file and add it to your project.
 
 ### Info.plistREMOVE
 Just remove 'REMOVE' from the end of the file, and edit the file to add your correct ID number.
@@ -37,5 +37,5 @@ Important improvements for the future:
 * Improve Google Maps experience in terms of navigating between various points
 
 Less important:
-* Ad a function that verifies a person has visited a place, this would ad value to the app as a navigating tool for e.g. orienteering, pub crawls, music events.
+* Ad a function that verifies a person has visited a place, this would add value to the app as a navigating tool for e.g. orienteering, pub crawls, music events.
 * GoogleMobileAds would be beneficial to help keep the project alive

@@ -1,0 +1,17 @@
+#files
+Cartfile.resolved
+passwords.txt
+GoogleService-Info.plist
+
+#dirs
+Pods
+Carthage
+
+#Mac
+*.DS_Store
+
+#Xcode
+*.xcuserstate
+MapPlaces.xcworkspace
+
+

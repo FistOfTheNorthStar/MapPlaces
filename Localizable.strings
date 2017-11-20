@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  MapPlaces
+
+  Created by KAK2164 on 09/10/2017.
+  Copyright © 2017 Kulvik Tech Ltd. All rights reserved.
+*/
+
+//settings
+"settings.title" = "Settings";
+"settings.signin" = "Sign in required for Map Markers";
+"settings.signedin" = "You are signed in";
+"settings.logout" = "Sign out";
+"settings.fieldinfo" = "Paste Google Sheets url";
+"settings.submit" = "Submit";
+
+//error msg for core data helper
+"error.longitude_not_existing" = "Marker list is not properly formatted.";
+"error.database_fetching_error" = "Database fetching error.";
+"error.excel_row_error" = "You're Google Sheet is not formatted correctly. Create a list and iterate from there, rows are for one marker. The columns you can edit safely are the following: Title, Snippet (description text for a marker), and SheetName.";
+"error.exists" = "List already exists, please remove it from your list prior to adding it again.";
+
+
+//error msg for settings popup after saving data
+"error.settings_save_title" = "Error saving results!";
+
+//error for settings delete
+"error.clear" = "Could not clear Sheet row.";
+
+//success msg for core data helper
+"succes.list_saved" = "OK";
+
+//db stack
+"dbhelper.errorsqlite" = "There was an error initializing or loading db.";
+"dehelper.errorcreate_storecoord";
+
+//questionmark
+"question.search" = "Search for a location.";
+"question.crosshairs" = "Move to your location.";
+"question.mappinpoint" = "Press once then touch anywhere on the map to add a new marker. Saved markers are automatically added to a Google Sheet found in your Google Sheets menu. You can then add a title, brief description called a snippet and add a icon to your liking ('none' is the default icon).";
+"question.settings" = "In the settings you first login to your Google account. Then you can add a marker list from a Google Sheet that was shared with you by copy pasting the Google Sheet url to the field. You can also delete map markers, and if you have the permission the markers are also deleted from the Google Sheet in question.";

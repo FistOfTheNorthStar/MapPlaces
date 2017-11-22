@@ -25,6 +25,9 @@ Just remove 'REMOVE' from the end of the file, and edit the file to add your cor
 ### AppDelegate.swift
 Remove 'REMOVE' from AppDelegate.swiftREMOVE. You will need to activate and create the necessary keys for the Google Apis you are going to use. Google Mobile Ads have not been integrated to the app yet.
 
+### MapPlaces.xcodeproj/project.pbxproj
+Remember to check your own project settings.
+
 ## Testing
 The Google libraries have some problems that arise during testing. You will need to make some small changes if you wish to make the tests possible at all. Unit tests are still incomplete on the Google's documents on the problems are inexistent or missing completely.
 

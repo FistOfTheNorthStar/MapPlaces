@@ -59,6 +59,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
         iconsForButton(nameFontAwesome: "fa-gear", selector: #selector(ViewController.segueSettings), theButton: settingsIcon)
         iconsForButton(nameFontAwesome:  "fa-map-pin", selector: #selector(ViewController.addMarkers), theButton: markerIcon)
         
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: searchIcon)
+        
         //add the navbuttons
         self.navigationItem.rightBarButtonItems = [UIBarButtonItem(customView: questionIcon), UIBarButtonItem(customView: settingsIcon), UIBarButtonItem(customView: buttonLoc), UIBarButtonItem(customView: markerIcon)]
         

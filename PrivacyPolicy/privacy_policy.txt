@@ -1,0 +1,1 @@
+MapPlaces does not collect any information about it's users. Google's services that are integrated might collect so you should refer to https://www.google.com/policies/privacy/ for more information. 

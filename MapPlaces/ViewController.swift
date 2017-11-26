@@ -47,6 +47,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
         let camera = GMSCameraPosition.camera(withLatitude: 52.5112, longitude: 13.4433, zoom: zoomLevel)
         self.mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         mapView?.delegate = self
+        //mapView?.settings.compassButton = true
+        mapView?.settings.myLocationButton = true
+        mapView?.isMyLocationEnabled = true
         view = mapView
         
         GIDSignIn.sharedInstance().delegate = self

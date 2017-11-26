@@ -38,6 +38,8 @@ Important improvements for the future:
 * Improve UX, listing various locations is confusing
 * Automate fetching the lists
 * Improve Google Maps experience in terms of navigating between various points
+* Add editing of cells inside the app
+* Add addresses to places on map
 
 Less important:
 * Ad a function that verifies a person has visited a place, this would add value to the app as a navigating tool for e.g. orienteering, pub crawls, music events.

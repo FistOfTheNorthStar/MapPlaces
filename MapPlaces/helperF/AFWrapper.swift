@@ -6,7 +6,7 @@
 //  Copyright © 2017 Kulvik Tech Ltd. All rights reserved.
 //
 //  Incomplete
-
+/*
 import UIKit
 import Alamofire
 import SwiftyJSON
@@ -40,4 +40,4 @@ class AFWrapper: NSObject {
         }
     }
 }
-
+*/

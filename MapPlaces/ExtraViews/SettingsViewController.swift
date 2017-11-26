@@ -55,7 +55,9 @@ class SettingsViewController: MSMessagesAppViewController, GIDSignInUIDelegate, 
         self.title = NSLocalizedString("settings.title", comment: "")
         let navBarSize = self.navigationController?.navigationBar.bounds
         self.navigationController?.navigationBar.backgroundColor = GradientColor(UIGradientStyle.topToBottom, frame: navBarSize!, colors: [HexColor("#d9d9d9")!, HexColor("#f5f5f5")!])
-        let doneBItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.done, target: self, action: #selector(backB))
+        //let doneBItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.done, target: self, action: #selector(backB))
+        let doneBItem = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(backB))
+        
         self.navigationItem.rightBarButtonItem = doneBItem
         self.navigationItem.leftBarButtonItem = editButtonItem
         
@@ -76,10 +78,10 @@ class SettingsViewController: MSMessagesAppViewController, GIDSignInUIDelegate, 
         //let's add all the buttons to a nice looking box
         view.addSubview(scroller)
         scroller.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(view).offset(66)
-            make.left.equalTo(view).offset(5)
-            make.bottom.equalTo(view).offset(-5)
-            make.right.equalTo(view).offset(-5)
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(5)
+            make.left.equalTo(view.safeAreaLayoutGuide).offset(5)
+            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-5)
+            make.right.equalTo(view.safeAreaLayoutGuide).offset(-5)
         }
         
         view.addSubview(box)

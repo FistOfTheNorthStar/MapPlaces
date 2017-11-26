@@ -6,7 +6,7 @@ def all_pods
   #pod 'IGListKit', '~> 3.0'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
-  pod 'Alamofire', '~> 4.5'
+  #pod 'Alamofire', '~> 4.5'
   pod 'SnapKit', '~> 4.0.0'
   pod 'Google-Mobile-Ads-SDK'
   pod 'GoogleSignIn'
@@ -17,6 +17,7 @@ def all_pods
   pod 'FontAwesome.swift', :git => 'https://github.com/thii/FontAwesome.swift.git', :branch => 'swift-4.0'
   pod 'Firebase'
   pod 'FirebaseAuth'
+  pod 'IQKeyboardManagerSwift'
 end
 
 target 'MapPlaces' do

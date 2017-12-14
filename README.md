@@ -1,6 +1,8 @@
 # MapPlaces
 MapPlaces is an app add and share your personal locations on Google Maps, with easy management and sharing using Google Sheets. It is written in Swift 4.
 
+[App Store](https://itunes.apple.com/us/app/mapplaces-add-locations/id1316688563)
+
 ## Integrate with Google
 You will need to do fix a few steps before you can get the app running.
 
